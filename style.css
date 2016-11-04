@@ -1,9 +1,26 @@
 
-/* 
+/*
 	STYLE.CSS:
 	One stylesheet to rule them all.
-	
-	selector { property:value }
-	
-*/
 
+	selector { property:value }
+
+*/
+h1 {
+
+  background-color: "blue";
+}
+
+body {
+  font-family:  serif;
+  font-size-adjust: auto;
+}
+
+p, a  {
+  font-family: 'Bungee Hairline', cursive;
+}
+
+.bigg {
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 80px;
+}
