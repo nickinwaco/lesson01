@@ -1,9 +1,12 @@
 header {
     height: 200px;
-    margin: auto;
     background-color: #196F3D;
     background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    position: fixed;
+    margin: -10;
+    padding: 0 0 0 0;
+    width: 100%;
 }
 
 h1.header {
@@ -11,19 +14,17 @@ h1.header {
     font-size: 75px;
     opacity: 0.6;
 }
-
-div.middle {
-    vertical-align: middle;
-}
-
-.wrapper {
-    margin: auto;
-    text-align: center;
-    vertical-align: middle;
-}
-
 h1 {
     color: white;
+}
+.wrapper {
+    text-align: center;
+}
+
+h2{
+  font-family: 'Shadows Into Light', cursive;
+}
+
 }
 
 p.middle {
@@ -34,15 +35,9 @@ p.middle {
 img.resize {
     width: 600px;
     padding-top: 10px;
+
 }
 
-.center {
-    text-align: center;
-}
-
-ul.align {
-    text-align: center;
-}
 
 a {
     font-family: 'Economica', sans-serif;
@@ -65,14 +60,25 @@ a:active {
 }
 
 main {
+  position: absolute;
+  top: 200px;
+  height: 600px;
+  left: 0;
+  width: 100%;
     background-color: #f5f2f2;
     background-image: url("https://www.transparenttextures.com/patterns/white-sand.png");
+    background-repeat: repeat;
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    height: 600px;
 }
 
+.center {
+  align-items: center;
+  text-align: center;
+
+}
+
+
 footer {
-    padding-top: 10px;
     position: absolute;
     right: 0;
     bottom: 0;
