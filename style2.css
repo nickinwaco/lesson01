@@ -64,11 +64,11 @@ a:active {
     color: black;
 }
 
-main{
-  background-color: #f5f2f2;
-background-image: url("https://www.transparenttextures.com/patterns/white-sand.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-height: 600px;
+main {
+    background-color: #f5f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/white-sand.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    height: 600px;
 }
 
 footer {
