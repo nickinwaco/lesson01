@@ -1,83 +1,101 @@
-
-/*
-	STYLE.CSS:
-	One stylesheet to rule them all.
-
-	selector { property:value }
-
-*/
-
-
-h2{
-  font-family: "arial";
+header {
+    height: 200px;
+    background-color: #196F3D;
+    background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    position: fixed;
+    margin: -10;
+    padding: 0 0 0 0;
+    width: 100%;
 }
 
-h2.center {
+h1.header {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 75px;
+    opacity: 0.6;
+}
+h1 {
+    color: white;
+}
+.wrapper {
     text-align: center;
 }
 
+h2{
+  font-family: 'Shadows Into Light', cursive;
+}
 
-img.resize{
-    width:540px; /* you can use % */
-    height: auto;
+}
+
+p.middle {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 18px;
+}
+
+img.resize {
+    width: 600px;
+    padding-top: 10px;
 
 }
 
 
-p, a  {
-  font-family: 'Bungee Hairline', cursive;
+a {
+    font-family: 'Economica', sans-serif;
 }
 
-.links {
-  color: grey;
+a:link {
+    color: #f4b642
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  /*text-align: center;*/
-
+a:visited {
+    color: black;
 }
 
-
-.bigg {
-  font-family: 'Bungee Hairline', cursive;
-  color: white;
-  font-size: 50px;
-  text-align: center;
-  background-color: green;
-  margin-top:0;
+a:hover {
+    color: silver;
 }
 
+a:active {
+    color: black;
+}
 
-div.header {
+main {
   position: absolute;
-  right: 0;
-  margin: 0;
-  padding: 0;
+  top: 200px;
+  height: 600px;
   left: 0;
-  text-align: center;
-  height: 100px;
-  border-top: 100px;
+  width: 100%;
+    background-color: #f5f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/white-sand.png");
+    background-repeat: repeat;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
-div.content {
-  padding-top: 100px;
-  height: auto;
+.center {
+  align-items: center;
   text-align: center;
-}
 
-div.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: grey;
-  text-align: center;
 }
 
 
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
-.ftext {
-  text-align: center;
+
+.bottom {
+    margin: auto;
+    height: 100px;
+    background-color: #f44242;
+    text-align: center;
+    background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+p.bottom {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
 }
