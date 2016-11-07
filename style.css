@@ -23,6 +23,10 @@ img.resize{
 
 }
 
+img.centerimg{
+  align-items: center;
+}
+
 
 body {
 
@@ -39,6 +43,8 @@ p, a  {
   text-align: center;
   background-color: green;
 }
+
+
 
 .links {
   color: grey;
@@ -59,6 +65,8 @@ p, a  {
 .header {
   position: absolute;
   right: 0;
+  margin: 0;
+  padding: 0;
 
   /*bottom: 0;*/
   left: 0;
@@ -66,10 +74,16 @@ p, a  {
   text-align: center;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 
 .content {
   height: auto;
-  text-align: center;
+
 
 }
 
