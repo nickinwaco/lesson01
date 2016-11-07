@@ -1,25 +1,22 @@
-
 header{
-  height: 100px;
+  height: 200px;
   margin: auto;
   background-color: #196F3D;
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 30px;
-
 background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 
-
-
+h1.header{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 75px;
 }
 
 .wrapper{
-  width: 580px;
   margin: auto;
   text-align: center;
   vertical-align:middle;
-
 }
+
 
 h1 {
   color: white;
