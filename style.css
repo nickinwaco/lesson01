@@ -6,18 +6,26 @@
 	selector { property:value }
 
 */
-h1 {
 
-  background-color: "blue";
-}
 
 h2{
   font-family: "arial";
 }
 
+h2.center {
+    text-align: center;
+}
+
+
+img.resize{
+    width:540px; /* you can use % */
+    height: auto;
+
+}
+
+
 body {
-  font-family:  serif;
-  font-size-adjust: auto;
+
 }
 
 p, a  {
@@ -26,5 +34,56 @@ p, a  {
 
 .bigg {
   font-family: 'Bungee Hairline', cursive;
-  font-size: 80px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background-color: green;
+}
+
+.links {
+  color: grey;
+}
+
+/*header {
+  height: 130px;
+  background-color: red;
+  text-align: center;
+
+}*/
+/*.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+.header {
+  position: absolute;
+  right: 0;
+
+  /*bottom: 0;*/
+  left: 0;
+  background-color: green;
+  text-align: center;
+}
+
+
+.content {
+  height: auto;
+  text-align: center;
+
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: grey;
+  text-align: center;
+}
+
+
+}
+.ftext {
+  text-align: center;
 }
