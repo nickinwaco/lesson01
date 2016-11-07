@@ -5,6 +5,12 @@ header{
   background-color: #196F3D;
   font-family: 'Archivo Black', sans-serif;
   font-size: 30px;
+
+background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+
+
 }
 
 .wrapper{
@@ -12,6 +18,7 @@ header{
   margin: auto;
   text-align: center;
   vertical-align:middle;
+
 }
 
 h1 {
@@ -24,26 +31,58 @@ p.middle{
 }
 
 img.resize {
-  width: 540px;
-  padding: 10px;
+  width: 600px;
+  padding-top: 10px;
 }
 
 .center{
   text-align: center;
 }
 
-footer{
-padding-top: 10px;
-}
-
-.bottom{
-
-  margin: auto;
-  height: 100px;
-  background-color: grey;
-  text-align: center;
-}
 
 ul.align{
   text-align: center;
+}
+
+a{
+font-family: 'Economica', sans-serif;
+}
+a:link{
+  color: #f4b642
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: silver;
+}
+a:active{
+  color: black;
+}
+
+
+
+footer{
+padding-top: 10px;
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+
+}
+
+.bottom{
+  margin: auto;
+  height: 100px;
+  background-color: #f44242;
+  text-align: center;
+
+background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+p.bottom {
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
 }
