@@ -1,0 +1,49 @@
+
+header{
+  height: 100px;
+  margin: auto;
+  background-color: #196F3D;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 30px;
+}
+
+.wrapper{
+  width: 580px;
+  margin: auto;
+  text-align: center;
+  vertical-align:middle;
+}
+
+h1 {
+  color: white;
+}
+
+p.middle{
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 18px;
+}
+
+img.resize {
+  width: 540px;
+  padding: 10px;
+}
+
+.center{
+  text-align: center;
+}
+
+footer{
+padding-top: 10px;
+}
+
+.bottom{
+
+  margin: auto;
+  height: 100px;
+  background-color: grey;
+  text-align: center;
+}
+
+ul.align{
+  text-align: center;
+}

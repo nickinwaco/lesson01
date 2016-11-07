@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+
+    <title>LESSON 001 - 11/3/2016</title>
+
+    <!-- <link type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"> -->
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <!-- ^^ order seems to matter, why? -->
+
+
+</head>
+
+<!-- WEB PAGE CONTENT HERE -->
+
+<body>
+<header>
+  <div class="wrapper">
+  <h1 > Vacation 2016 </h1>
+  </div>
+  </header>
+
+  <main>
+    <div class="wrapper">
+      <a > s there anything more satisfying than that first sip of coffee in the morning? Whether you're a latte drinker or you take yours black, there's no question that coffee is energizing and unbelievably delicious. Plus, that smell. It's unreal.
+
+We could go on and on about how great coffee tastes, but let's be real. You already know that. So in honor of everyone's favorite hot beverage, here are a few things you probably didn't know about your morning cup of coffee. </a>
+
+    </div>
+
+  </main>
+
+
+  <footer>
+    <div class="bottom">
+      <p> Happy times 2016. </p>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
+
+
+header{
+  height: 50px;
+  margin: auto;
+  background-color: green;
+
+}
+.wrapper{
+  width: 980px;
+  margin: auto;
+  text-align: center;
+
+
+}
+
+h1 {
+  color: white;
+}
+
+.center{
+  text-align: center;
+}
+
+footer{
+padding-top: 100px;
+}
+
+.bottom{
+  width:980px;
+  margin: auto;
+  height: 50px;
+  background-color: grey;
+  text-align: center;
+}
